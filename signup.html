@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Day5/signupscript.css">
+</head>
+<body>
+    <div id="create_container">
+    <form>
+        <div id="create_ac">
+            <p>Create Account</p>
+        </div>
+        <div id="fast_delivery">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp2KmGh1O3Ov6b8yia3RX5F3dqtYHaU_lMUw&usqp=CAU">
+            <p>Check out faster</p>
+        </div>
+        <div id="track_order">
+            <img src="https://cdn-icons-png.flaticon.com/128/8096/8096567.png">
+            <p>Track orders easily</p>
+        </div>
+        <div id="across_brands">
+            <img src="https://cdn-icons-png.flaticon.com/128/568/568717.png">
+            <p>Use one sign-in across our brands</p>
+        </div>
+        <div id="require">
+            <p>*</p>
+            <p>Required</p>
+        </div>
+        <div>
+            <span class="eml">Email</span>
+        <div id="fetch_email">
+            <span id="fetch"></span>
+            <span><a href="verify.html">Edit</a></span>
+        </div>
+        </div>
+         <div id="div_firstname">
+            <span>First name</span>
+            <span>*</span>
+        </div>
+            <input type="text" id="firstname" required>
+        <div id="div_lastname">
+            <span>Last name</span>
+            <span>*</span>
+        </div>
+            <input type="text" id="lastname" required>
+        <div id="div_password">
+            <span>Password</span>
+            <span>*</span>
+        </div>
+            <div class="pw-meter">
+                <input type="password" id="password" required>
+            </div>
+            <div class="pw-strength">
+                <span>Weak</span>
+                <span></span>
+            </div>
+            <div>
+                <input id="pass_check"type="checkbox" onclick="myfunction()">Show Password
+            </div>
+            <div class="keepme_signedin">
+        <input class="keepme_checkbox" type="checkbox" onclick="keepmein()">Keep me Signed in
+        <p class="keep_text">You won't need to sign in as often. Only do this if you're on your personal device. Just sign out if you change your mind.</p>
+    </div>
+    <div id="tandc">
+        <p>By signing in to your account, you agree to our<a href=""> Privacy Policy </a> and <a href="">Terms & Conditions.</a></p>
+    </div> 
+    <div id="createac_button">
+        <button onclick="signup(event)">Create Account</button>
+    </div>
+</form> 
+    </div>
+</body>
+</html>
+<script src="signupjs.js">
+    
+</script>
